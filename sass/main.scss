@@ -40,6 +40,7 @@ $accordion-font-size-2: 1.2vw;
 }
 
 
+
 @mixin container-grid {
   background-color: #fff;
   width: 100%;
@@ -407,6 +408,53 @@ $accordion-font-size-2: 1.2vw;
         
         }
 
+        @media (max-width: 767px){
 
+          .product__container{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 30vw;
+              margin-bottom: 3vw;
+              height: 50vh;
+          
+          }
+          .card--direction{
+              height: 100vw !important;
+      
+          }
+      }
+      @media (max-width: 587px){
+      
+          .product__container{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 30vw;
+              margin-bottom: 30vw;
+              height: 50vh;
+          
+          }
+          .card--direction{
+              height: 120vw !important;
+      
+          }
+      }
+      @media (max-width: 375px){
+      
+          .product__container{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 40vw;
+              margin-bottom: 30vw;
+              height: 50vh;
+          
+          }
+          .card--direction{
+              height: 150vw !important;
+      
+          }
+      }
     
     
