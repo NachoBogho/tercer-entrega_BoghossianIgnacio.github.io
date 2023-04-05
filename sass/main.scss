@@ -112,9 +112,9 @@ $accordion-font-size-2: 1.2vw;
   padding: 1vw 1.5vw;
   border-radius: 1vw;
 
-  &:hover {
-    background-color: $primary-color;
-    color: $secondary-color;
+        &:hover {
+          background-color: $primary-color;
+          color: $secondary-color;
   }
 }
 
@@ -140,9 +140,9 @@ $accordion-font-size-2: 1.2vw;
 }
 
 
-@media (max-width: 1200px) {
-  $accordion-font-size: 2.6vw;
-  $accordion-font-size-2: 2
+      @media (max-width: 1200px) {
+        $accordion-font-size: 2.6vw;
+        $accordion-font-size-2: 2
 }
 
 
@@ -156,28 +156,28 @@ $accordion-font-size-2: 1.2vw;
   height: 4.5vw;
   margin-top: 5vw;
   
-  .slide-track {
-    display: flex;
-    animation: scroll 40s linear infinite;
-    -webkit-animation: scroll 40s linear infinite;
-    width: calc(200px * 14);
-  }
-  
-  .slide {
-    width: 20vw;
-    padding-left: 5vw;
-    
-    img {
-      width: 100%;
-    }
-  }
-  
-  @media (max-width: 1200px) {
-    .slide {
-      width: 20vw;
-      padding-left: 10vw;
-    }
-  }
+          .slide-track {
+            display: flex;
+            animation: scroll 40s linear infinite;
+            -webkit-animation: scroll 40s linear infinite;
+            width: calc(200px * 14);
+          }
+          
+          .slide {
+            width: 20vw;
+            padding-left: 5vw;
+            
+            img {
+              width: 100%;
+            }
+          }
+          
+          @media (max-width: 1200px) {
+            .slide {
+              width: 20vw;
+              padding-left: 10vw;
+            }
+          }
 }
 
 @keyframes scroll {
@@ -204,28 +204,28 @@ $accordion-font-size-2: 1.2vw;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
   
-  .grids--about1 {
-    grid-column: 1/1;
-    grid-row: 1/2;
-    justify-self: center;
-    align-self: center;
-    margin-top: 4vw;
-  }
+          .grids--about1 {
+           grid-column: 1/1;
+           grid-row: 1/2;
+           justify-self: center;
+           align-self: center;
+           margin-top: 4vw;
+         }
   
-  .grids--about2 {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    justify-self: center;
-    align-self: start;
-    margin: 0 10vw;
-  }
+          .grids--about2 {
+            grid-column: 1/2;
+            grid-row: 2/3;
+            justify-self: center;
+            align-self: start;
+            margin: 0 10vw;
+         }   
   
-  .grids--about3 {
-    grid-column: 1/2;
-    grid-row: 3/4;
-    justify-self: center;
-    align-self: start;
-  }
+          .grids--about3 {
+            grid-column: 1/2;
+            grid-row: 3/4;
+            justify-self: center;
+            align-self: start;
+          }
 }
 
 .video--yt iframe {
@@ -247,22 +247,22 @@ $accordion-font-size-2: 1.2vw;
   box-shadow: 0 0 5px 0 rgba(22, 22, 26, .25);
   transition: 0.5s;
   
-  &:hover {
-    box-shadow: 5px 5px 20px black;
-    transform: translateY(-2%);
+       &:hover {
+          box-shadow: 5px 5px 20px black;
+          transform: translateY(-2%);
   }
   
-  .card-title {
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-  }
-  
-  .card-text {
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-  }
+        .card-title {
+          display: flex;
+          justify-content: center;
+          font-size: 25px;
+        }
+        
+        .card-text {
+          display: flex;
+          justify-content: center;
+          font-size: 25px;
+        }
 }
 
 .container--margin {
@@ -304,12 +304,16 @@ $accordion-font-size-2: 1.2vw;
     background-color: #fff;
     box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
     }
+    
     .left{
+
         background: url("../img/store-2/oso7.jpg") no-repeat center;
         background-size: cover;
         height: 100%;
     }
+
     .right{
+
         padding: 25px 40px;
     }
     
@@ -318,16 +322,16 @@ $accordion-font-size-2: 1.2vw;
         padding: 0 0 10px;
         margin-bottom: 100px;
         
-        &:after{
-            content: '';
-            position: absolute;
-            left: 50%;
-            bottom: 0;
-            transform: translateX(-50%);
-            height: 4px;
-            width: 50px;
-            border-radius: 2px;
-            background-color: #{$primary-color};
+             &:after{
+                content: '';
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+                transform: translateX(-50%);
+                height: 4px;
+                width: 50px;
+                border-radius: 2px;
+                background-color: #{$primary-color};
         }
     }
     
@@ -341,13 +345,13 @@ $accordion-font-size-2: 1.2vw;
         margin-bottom: 22px;
         transition: .3s;
     
-        &:hover{
-            background-color: rgba(0, 0, 0, 0.1);
+               &:hover{
+                   background-color: rgba(0, 0, 0, 0.1);
         }
     
-        &:focus{
-            border: 2px solid rgba(30,85,250,0.47);
-            background-color: #fff;
+                &:focus{
+                  border: 2px solid rgba(30,85,250,0.47);
+                  background-color: #fff;
         }
     }
     
@@ -366,8 +370,8 @@ $accordion-font-size-2: 1.2vw;
         cursor: pointer;
         transition: .3s;
     
-        &:hover{
-            background-color: #{$primary-color};
+              &:hover{
+                  background-color: #{$primary-color};
         }
     }
     
@@ -396,10 +400,10 @@ $accordion-font-size-2: 1.2vw;
         padding: 2vw;
         height: 100%;
     
-        .h5--config{
-            font-size: 2vw;
-            font-weight: bold;
-        }
+                .h5--config{
+                  font-size: 2vw;
+                  font-weight: bold;
+               }
         
         }
 
